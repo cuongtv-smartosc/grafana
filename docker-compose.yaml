@@ -31,7 +31,7 @@ services:
       - loki
     environment:
       APP_NAME: "app-a"
-#    logging: *default-logging
+    logging: *default-logging
 
 #  app-b:
 #    build: ./fastapi_app/
